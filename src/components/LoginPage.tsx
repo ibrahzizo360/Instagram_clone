@@ -5,7 +5,13 @@ function ListGroup({ heading }: Props) {
   return (
     <>
       <div className="Component">
-        <h1 className="heading">{heading}</h1>
+        <div className="instagram_writing">
+          <img
+            className="insta_logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png"
+            alt=""
+          />
+        </div>
         <label htmlFor="username"></label>
         <input
           className="Username"
@@ -55,12 +61,49 @@ function ListGroup({ heading }: Props) {
           </div>
         </div>
       </center>
-      <p className="terms">
-        Meta About Blog Jobs Help API Privacy Terms Top Accounts Locations
-        Instagram Lite
-      </p>
-      <p className="contact">Contact Uploading & Non-Users Meta Verified</p>
-      <p className="copyright">English © 2023 Instagram from Meta</p>
+      <div className="links">
+        <a href="#" className="dec-effect">
+          Meta
+        </a>
+        <a href="#" className="dec-effect">
+          About
+        </a>
+        <a href="#" className="dec-effect">
+          Blog
+        </a>
+        <a href="#" className="nodec-effect">
+          Jobs
+        </a>
+        <a href="#" className="dec-effect">
+          Help
+        </a>
+        <a href="#" className="dec-effect">
+          API
+        </a>
+        <a href="#" className="nodec-effect">
+          Privacy
+        </a>
+        <a href="#" className="nodec-effect">
+          Terms
+        </a>
+        <a href="#" className="nodec-effect">
+          Top Accounts
+        </a>
+        <a href="#" className="nodec-effect">
+          Locations
+        </a>
+        <a href="#" className="nodec-effect">
+          Instagram Lite
+        </a>
+
+        <a href="#" className="nodec-effect">
+          Contact Uploading & Non-Users
+        </a>
+        <a href="#" className="dec-effect">
+          Meta Verified
+        </a>
+      </div>
+      <span id="below">© 2023 Instagram from Meta</span>
     </>
   );
 }

@@ -20,6 +20,17 @@
     border: 0.5px solid rgb(210, 206, 206);
     
 }
+.instagram_writing{
+    height: 2px;
+    margin-right: 20px;
+    justify-content: center;
+
+}
+.insta_logo{
+    height: 50px;
+    width: 100px;
+    align-items: center;
+}
 .Signup {
     margin-top: 1%;
     margin-left: 35%;
@@ -134,4 +145,28 @@
     margin-top: 20px;
     margin-left: 37%;
     color: rgb(144, 144, 144);
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  font-size: 12px;
+}
+.links a {
+  color: grey;
+  text-decoration: none;
+  font-weight: 400;
+  margin-right: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a.dec-effect:hover {text-decoration: underline;
+}
+#below {
+  color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  margin-left: 600px;
 }

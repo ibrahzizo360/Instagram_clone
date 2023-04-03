@@ -2,7 +2,7 @@ import ListGroup from "./components/LoginPage";
 function App() {
   return (
     <div>
-      <ListGroup heading="Instagram" />
+      <ListGroup heading="" />
     </div>
   );
 }
