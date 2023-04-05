@@ -1,10 +1,15 @@
-import Signup from "./components/Signup_Page";
+import NavBar from './components/layout/NavBar/NavBar'
+import NavMob from './components/layout/NavBar/Mobile/NavMob';
+import Main from './components/layout/Main/Main';
 
 function App() {
   return (
-    <div>
-      <Signup />
+    <div className="App">
+      <NavBar />
+      <NavMob />
+      <Main />
     </div>
   );
 }
+
 export default App;
