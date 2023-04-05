@@ -1,25 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import NavBar from './components/layout/NavBar/NavBar'
+import NavMob from './components/layout/NavBar/Mobile/NavMob';
+import Main from './components/layout/Main/Main';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-      
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      
+      <NavBar />
+      <NavMob />
+      <Main />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
